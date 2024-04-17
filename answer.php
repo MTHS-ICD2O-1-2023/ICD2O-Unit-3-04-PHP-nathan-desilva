@@ -45,10 +45,10 @@
               $celsius = ($fahrenheit - 32) * 5 / 9;
 
               // output
-              echo "If the temperature in Fahrenheit is " . round($fahrenheit, 2) . ". ";
+              echo "If the temperature in Fahrenheit is " . round($fahrenheit, 2) . "°F. ";
               echo "<br />";
               echo "<br />";
-              echo "Then the temperature in Celsius is: " . round($celsius, 2) . ". ";
+              echo "Then the temperature in Celsius is: " . round($celsius, 2) . "°C. ";
               echo "<br />";
 
               ?>
