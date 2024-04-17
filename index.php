@@ -22,35 +22,33 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Volume of a Sphere, in PHP</span>
+        <span class="mdl-layout-title">Convert Fahrenheit to Celsius, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/sphere.png" alt="sphere" width="250" />
+        <img src="./images/thermometer.png" alt="thermometer" width="250" />
       </div>
-      <h3>Formula
+      <h3>Convert Fahrenheit to Celsius:
         <br />
         <br ?>
-        V = 4/3 π r³
+        (32°F − 32) × 5/9 = 0°C
       </h3>
       <br />
-      <div class="page-content">Please enter a number:</div>
       <div class="page-content-php">
         <br />
         <form action="answer.php" method="POST">
-          Radius:
+          Fahrenheit:
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="radius">
-            <label class="mdl-textfield__label" for="radius">Enter a number ...</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="fahrenheit">
+            <label class="mdl-textfield__label" for="fahrenheit">Enter a number ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          mm³
           <br />
           <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-            Calculate
+            Convert
           </button>
         </form>
       </div>
